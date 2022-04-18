@@ -17,12 +17,12 @@ If you have, theres a few things to check
 2. Make sure you set the ip and port in `lobby-sockets` correctly
    1. The ip should probably be the same one used in the bungee config
    2. The port must be the `port` from the BedWarsProxy config
-3. Make sure the BedWarsProxy port is accessable to the bedwars servers
+3. Make sure the BedWarsProxy port is accessible to the bedwars servers
    1. Make sure it is allowed through any firewalls
    2. If you are on a host, you might have to ask your host to add the port to your server
-   3. If you are running on pterodactyl, you'll need to add an "allocation" for the bedwarsproxy port.
-      If you host the pterodactyl node yourself, you can do this from the admin panel.
-      Otherwise, you will need to contact the node admin about it (e.g. if youre on a host that uses pterodactyl)
+   3. If you are running on Pterodactyl, you'll need to add an "allocation" for the BedWarsProxy port.
+      If you host the Pterodactyl node yourself, you can do this from the admin panel.
+      Otherwise, you will need to contact the node admin about it (e.g. if you're on a host that uses Pterodactyl)
 
 ## My arenas show up, but when I try to join one, nothing happens!
 Usually this happens if you didnt put the correct `server-id` in the BedWars1058 config.
